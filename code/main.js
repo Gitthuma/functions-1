@@ -7,7 +7,10 @@ let para = document.createElement('p');
 
 /*Create the function statement*/
 
+/*Create a method to select the random name and assign it to a variable randomName*/
+
 function chooseName() {
+    let randomName = names[Math.floor(Math.random()*10)];
 
 }
 
