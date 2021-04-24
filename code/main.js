@@ -11,9 +11,11 @@ let para = document.createElement('p');
 
 /*Assign randomName to para textContent*/
 
+/*Changed (Math.random()*10) to (Math.random()*names.length)*/
+
 function chooseName() {
 
-    let randomName = names[Math.floor(Math.random()*10)];
+    let randomName = names[Math.floor(Math.random()*names.length)];
     para.textContent = randomName;
 
 }
