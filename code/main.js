@@ -12,11 +12,15 @@ let para = document.createElement('p');
 /*Assign randomName to para textContent*/
 
 function chooseName() {
-    
+
     let randomName = names[Math.floor(Math.random()*10)];
     para.textContent = randomName;
 
 }
+
+/*Call the function chooseName()*/
+
+chooseName();
 
 // Don't edit the code below here!
 
